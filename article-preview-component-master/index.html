@@ -7,6 +7,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/style.css">
 
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Article preview component</title>
 </head>
 <body>
@@ -30,18 +35,33 @@
             to help you make any room feel complete.
           </p>
         </div>
-           <div class="toggle-share"><!-- will display when the user click on share-btn  -->
-            Share
+          <div class="toggle-share"><!-- will display when the user click on share-btn  -->
+            <div class="share-text">
+              <P>SHARE</P>
+            </div>
+            <div class="icon-facebook">
+              <img src="assets/images/icon-facebook.svg" alt="facebook icon">
+            </div>
+            <div class="icon-twitter">
+              <img src="assets/images/icon-twitter.svg" alt="twitter icon">
+            </div>
+            <div class="icon-pinterest">
+              <img src="assets/images/icon-pinterest.svg" alt="pinterest icon">
+            </div>
           </div>
       </div>    
       <div class="profile">
-        <div class="image-profile">img</div>
+        <div class="image-profile">
+          <img src="assets/images/avatar-michelle.jpg" alt="profile image">
+        </div>
         <div class="name-and-date">  
-          Michelle Appleton
-          28 Jun 2020
+          <p class="name">Michelle Appleton</p>
+          <p class="date">28 Jun 2020</p>
         </div>
         <div class="share-btn">
-          Share
+          <div class="btn">
+            <img src="assets/images/icon-share.svg" alt="Share-button">
+          </div>
         </div>
       </div>
     </section>

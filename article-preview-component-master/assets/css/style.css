@@ -89,7 +89,7 @@ main{
     align-items:center;
     position: absolute;
     right: 0;
-    display: none;  /*  Hidden by default */
+    display: none;/*  Hidden by default */
     background-color: #48556A ;
     width: 248px;
     height: 55px;
